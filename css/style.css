@@ -1,0 +1,102 @@
+body {
+  font-family: Cera-Pro;
+  align-content: center;
+  max-width: 840px;
+  margin: 0 auto;
+}
+
+nav {
+  display: flex;
+  align-items: center;
+  padding: 10px;
+  margin: 0 auto;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  margin: 10px;
+  padding: 0;
+  gap: 34px;
+}
+
+nav ul li a {
+  font-weight: 400 !important;
+  text-decoration: none;
+  color: #3d3d3d;
+}
+
+.sorting {
+  margin-left: auto;
+}
+
+nav ul li a:hover {
+  color: #46a358;
+  text-decoration: underline;
+}
+
+.products {
+  display: flex;
+  justify-content: center;
+  gap: 37px;
+}
+.products {
+  color: #3d3d3d;
+}
+.products img:hover {
+  border-top: 1px solid #46a358;
+}
+.cost {
+  color: #46a358;
+  margin-top: -24px;
+}
+
+.product {
+  position: relative;
+}
+
+.overlay {
+  position: absolute;
+  bottom: 70px;
+  left: 50%;
+  transform: translateX(-50%);
+  gap: 10px;
+  opacity: 0;
+}
+
+.overlay button {
+  background: none;
+  border: none;
+  cursor: pointer;
+}
+
+.overlay button img {
+  width: 20px;
+  border: none !important;
+}
+
+.product:hover .overlay {
+  opacity: 1;
+}
+
+.overlay2 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  gap: 10px;
+  opacity: 0;
+}
+
+.overlay2 button {
+  background: none;
+  border: none;
+  cursor: pointer;
+}
+
+.overlay2 button img {
+  border: none !important;
+}
+
+.product:hover .overlay2 {
+  opacity: 1;
+}

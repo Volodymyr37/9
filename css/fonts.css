@@ -1,0 +1,16 @@
+@font-face {
+  font-family: "Cera-Pro";
+  src: local("CeraPro-Regural"),
+    url("../fonts/CeraPro-Regular.woff2") format("woff2"),
+    url("../fonts/CeraPro-Regular.ttf") format("truetype");
+  font-weight: 400px;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Cera-Pro";
+  src: local("CeraPro-Bold"), url("../fonts/CeraPro-Bold.woff2") format("woff2"),
+    url("../fonts/CeraPro-Bold.ttf") format("truetype");
+  font-weight: 700px;
+  font-style: normal;
+}
